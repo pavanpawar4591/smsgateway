@@ -1,0 +1,71 @@
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target="#myNavbar">
+				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="dashboard.do">CLF-tool</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="dashboard.do">Home</a></li>
+
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">Cost Optimization <span
+						class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="LowUtilizedInstances.do">Low Utilized
+								instances</a></li>
+						<li><a href="undrUtilizedEbs.do">Underutilized EBS volume</a></li>
+						<li><a href="UnutiliaedIpAddresses.do">Underutilized IP
+								addresses</a></li>
+					</ul></li>
+
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">Security <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="Security_Groups_Specified_Ports.do">Security
+								Groups Specified Ports</a></li>
+						<li><a href="IAM_use.do">IAM users</a></li>
+						<li><a href="aws-s3-buck-list.do">s3 bucket permissions</a></li>
+						<li><a href="Amazon_ublic_snapshot.do">Amazon public
+								snapshots</a></li>
+					<!--	<li><a href="aws-vpc-list.do">VPC List</a></li> -->
+					</ul></li>
+
+
+				<!--  <li class="dropdown" ><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">Performance<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="HighUtilizationInstances.do">High
+								Utilization Instances</a></li>
+					</ul></li>  -->
+
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">Settings <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="list-users.do">User management</a></li>
+						<li><a href="smtp-setting.do">SMTP</a></li>
+						<!--<li><a href="SchedularDisplay.do">Scheduler Display</a></li>  -->
+						<li><a href="aws-setting.do">Amazon Credentials</a></li>
+					</ul></li>
+
+
+
+			</ul>
+
+
+
+
+
+
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="login.do"><span class="glyphicon glyphicon-log-in"></span>
+						Logout</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
